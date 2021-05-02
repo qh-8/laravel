@@ -1,4 +1,5 @@
 /node_modules
+/packages
 /public/hot
 /public/storage
 /storage/*.key
@@ -7,7 +8,5 @@
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
-Homestead.json
-Homestead.yaml
 npm-debug.log
 yarn-error.log
