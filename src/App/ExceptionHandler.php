@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Exceptions;
+namespace App;
 
-use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Foundation\Exceptions\Handler;
 use Throwable;
 
-class Handler extends ExceptionHandler
+class ExceptionHandler extends Handler
 {
     /**
      * A list of the exception types that are not reported.
@@ -17,9 +17,9 @@ class Handler extends ExceptionHandler
     ];
 
     /**
-     * A list of the inputs that are never flashed for validation exceptions.
+     * Register the exception handling callbacks for the application.
      *
-     * @var array
+     * @return void
      */
     protected $dontFlash = [
         'current_password',
