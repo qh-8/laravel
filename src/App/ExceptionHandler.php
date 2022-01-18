@@ -10,7 +10,7 @@ class ExceptionHandler extends Handler
     /**
      * A list of the exception types that are not reported.
      *
-     * @var array
+     * @var array<int, class-string<Throwable>>
      */
     protected $dontReport = [
         //
@@ -19,7 +19,7 @@ class ExceptionHandler extends Handler
     /**
      * Register the exception handling callbacks for the application.
      *
-     * @return void
+     * @var array<int, string>
      */
     protected $dontFlash = [
         'current_password',

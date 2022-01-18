@@ -1,6 +1,91 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v8.5.24...8.x)
+## [Unreleased](https://github.com/laravel/laravel/compare/v8.6.10...master)
+
+
+## [v8.6.10 (2021-12-22)](https://github.com/laravel/laravel/compare/v8.6.9...v8.6.10)
+
+### Changed
+- Bump Laravel to v8.75 ([#5750](https://github.com/laravel/laravel/pull/5750))
+- Simplify the maintenance file call ([#5752](https://github.com/laravel/laravel/pull/5752))
+- Add enum translation ([#5753](https://github.com/laravel/laravel/pull/5753))
+- Add mac_address validation message ([#5754](https://github.com/laravel/laravel/pull/5754))
+
+### Removed
+- Delete web.config ([#5744](https://github.com/laravel/laravel/pull/5744))
+
+
+## [v8.6.9 (2021-12-07)](https://github.com/laravel/laravel/compare/v8.6.8...v8.6.9)
+
+### Changed
+- Improves generic types on the skeleton ([#5740](https://github.com/laravel/laravel/pull/5740))
+- Add option to set sendmail path ([#5741](https://github.com/laravel/laravel/pull/5741))
+
+### Fixed
+- Fix asset publishing if they were already published ([#5734](https://github.com/laravel/laravel/pull/5734))
+
+
+## [v8.6.8 (2021-11-23)](https://github.com/laravel/laravel/compare/v8.6.7...v8.6.8)
+
+### Changed
+- Order validation rules alphabetically ([#5728](https://github.com/laravel/laravel/pull/5728))
+- Removes the Console\Kernel::$commands property ([#5727](https://github.com/laravel/laravel/pull/5727))
+
+
+## [v8.6.7 (2021-11-16)](https://github.com/laravel/laravel/compare/v8.6.6...v8.6.7)
+
+### Changed
+- Added `declined` and `declined_if` validation rules ([#5723](https://github.com/laravel/laravel/pull/5723))
+- Should be identical with current sanctum config file ([#5725](https://github.com/laravel/laravel/pull/5725))
+
+
+## [v8.6.6 (2021-11-09)](https://github.com/laravel/laravel/compare/v8.6.5...v8.6.6)
+
+### Changed
+- Remove redundant `tap()` helper in `index.php` ([#5719](https://github.com/laravel/laravel/pull/5719))
+- Add `Js` facade ([399d435](https://github.com/laravel/laravel/commit/399d435c4f0b41a5b6d3e14894195f9196d36bb8))
+
+
+## [v8.6.5 (2021-10-26)](https://github.com/laravel/laravel/compare/v8.6.4...v8.6.5)
+
+### Changed
+- Guess database factory model by default ([#5713](https://github.com/laravel/laravel/pull/5713))
+
+
+## [v8.6.4 (2021-10-20)](https://github.com/laravel/laravel/compare/v8.6.3...v8.6.4)
+
+### Changed
+- Log deprecations instead of treating them as exceptions ([#5711](https://github.com/laravel/laravel/pull/5711))
+
+
+## [v8.6.3 (2021-10-05)](https://github.com/laravel/laravel/compare/v8.6.2...v8.6.3)
+
+### Changed
+- Add failover in supported mail configurations comment section ([#5692](https://github.com/laravel/laravel/pull/5692))
+- Keeping access tokens migration id consistent ([#5691](https://github.com/laravel/laravel/pull/5691))
+- Ensures downloaded version of Collision supports PHP 8.1 ([#5697](https://github.com/laravel/laravel/pull/5697))
+
+### Fixed
+- Update lte and gte validation messages to have a grammatically parallel structure ([#5699](https://github.com/laravel/laravel/pull/5699))
+
+
+## [v8.6.2 (2021-09-07)](https://github.com/laravel/laravel/compare/v8.6.1...v8.6.2)
+
+### Changed
+- Dark mode auth links contrast ([#5678](https://github.com/laravel/laravel/pull/5678))
+- Added prohibits validation message ([#5681](https://github.com/laravel/laravel/pull/5681))
+
+
+## [v8.6.1 (2021-08-24)](https://github.com/laravel/laravel/compare/v8.6.0...v8.6.1)
+
+### Changed
+- Add failover driver to default mail config file ([#5672](https://github.com/laravel/laravel/pull/5672))
+
+
+## [v8.6.0 (2021-08-17)](https://github.com/laravel/laravel/compare/v8.5.24...v8.6.0)
+
+### Added
+- Sanctum ([#5663](https://github.com/laravel/laravel/pull/5663))
 
 
 ## [v8.5.24 (2021-08-10)](https://github.com/laravel/laravel/compare/v8.5.23...v8.5.24)
