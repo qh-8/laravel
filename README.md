@@ -1,1 +1,1 @@
-# Laravel Project \w DDD Structure
+# Laravel Project \w Domain Oriented Design
