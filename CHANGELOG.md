@@ -1,6 +1,11 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v9.3.3...9.x)
+## [Unreleased](https://github.com/laravel/laravel/compare/v2.3.0...main)
+
+## [v2.3.0](https://github.com/laravel/laravel/compare/v9.3.3...v2.3.0) - 2022-08-10
+
+- Update Laravel from Upstream
+- Add `laravel/sail` for local development
 
 ## [v9.3.3](https://github.com/laravel/laravel/compare/v9.3.2...v9.3.3) - 2022-08-03
 
