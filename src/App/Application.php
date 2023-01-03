@@ -2,7 +2,9 @@
 
 namespace App;
 
-class Application extends \Illuminate\Foundation\Application
+use Illuminate\Foundation\Application as IlluminateApplication;
+
+class Application extends IlluminateApplication
 {
     /**
      * {@inheritdoc}
